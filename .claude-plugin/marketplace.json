@@ -1,0 +1,34 @@
+{
+  "name": "claude-business-god-mode",
+  "owner": { "name": "F0rger123", "url": "https://github.com/F0rger123" },
+  "metadata": {
+    "description": "Claude Business God Mode: the hub plus every God Mode plugin (Meta Ads, SEO, Video Editing) in one marketplace. The CRM is a template repo you clone per business."
+  },
+  "plugins": [
+    {
+      "name": "business-god-mode",
+      "source": "./",
+      "description": "Hub: shared business profile, playbooks and routing across CRM, Ads, SEO and Video.",
+      "version": "1.0.0",
+      "license": "MIT"
+    },
+    {
+      "name": "ads",
+      "source": { "source": "github", "repo": "F0rger123/claude-meta-ads-god-mode" },
+      "description": "Meta Ads God Mode: safety-first paid media. Meta first, Google built in. Creates PAUSED, spends only with approval.",
+      "license": "MIT"
+    },
+    {
+      "name": "seo-god-mode",
+      "source": { "source": "github", "repo": "F0rger123/CLAUDE-SEO-GOD-MODE" },
+      "description": "SEO God Mode: website rating, audits, local SEO, Search Console, Bing, schema, AI Overviews and GEO/AEO, plus an MCP server.",
+      "license": "MIT"
+    },
+    {
+      "name": "video-editing-god-mode",
+      "source": { "source": "github", "repo": "F0rger123/claude-video-editing-god-mode" },
+      "description": "Video Editing God Mode: 16 editing skills for reels, Shorts and long-form, plus the God Mode Cut approval PWA.",
+      "license": "MIT"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Manifests are valid JSON
+        run: for f in .claude-plugin/*.json; do python3 -m json.tool "$f" > /dev/null; done
+      - name: Hub skill has frontmatter
+        run: head -1 skills/business-god-mode/SKILL.md | grep -q '^---$'
+      - name: Codex mirror matches
+        run: cmp skills/business-god-mode/SKILL.md .agents/skills/business-god-mode/SKILL.md
+      - name: Install script parses
+        run: bash -n scripts/install.sh

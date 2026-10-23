@@ -1,0 +1,11 @@
+{
+  "name": "business-god-mode",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Claude Business God Mode: one hub that runs a whole business with Claude. Shared business profile, launch/lead/content/monthly playbooks, and routing across the Ultimate CRM Template, Meta Ads God Mode, SEO God Mode and Video Editing God Mode.",
+  "author": { "name": "F0rger123", "url": "https://github.com/F0rger123" },
+  "homepage": "https://github.com/F0rger123/claude-business-god-mode",
+  "repository": "https://github.com/F0rger123/claude-business-god-mode",
+  "keywords": ["business", "crm", "meta-ads", "seo", "video-editing", "agency", "small-business", "claude-code"],
+  "skills": ["./skills/"]
+}

@@ -1,0 +1,21 @@
+# Claude Business God Mode
+
+> One umbrella that runs a whole business with Claude: CRM, paid ads, SEO and video, sharing one business profile.
+
+## Start
+- [README](https://raw.githubusercontent.com/F0rger123/claude-business-god-mode/main/README.md)
+- [Agent rules](https://raw.githubusercontent.com/F0rger123/claude-business-god-mode/main/AGENTS.md)
+- [Hub skill](https://raw.githubusercontent.com/F0rger123/claude-business-god-mode/main/skills/business-god-mode/SKILL.md)
+- [Setup](https://raw.githubusercontent.com/F0rger123/claude-business-god-mode/main/docs/SETUP.md)
+
+## Playbooks
+- [01 New business launch](https://raw.githubusercontent.com/F0rger123/claude-business-god-mode/main/playbooks/01-new-business-launch.md)
+- [02 Lead engine](https://raw.githubusercontent.com/F0rger123/claude-business-god-mode/main/playbooks/02-lead-engine.md)
+- [03 Content engine](https://raw.githubusercontent.com/F0rger123/claude-business-god-mode/main/playbooks/03-content-engine.md)
+- [04 Monthly review](https://raw.githubusercontent.com/F0rger123/claude-business-god-mode/main/playbooks/04-monthly-review.md)
+
+## Components
+- [Ultimate CRM Template](https://github.com/F0rger123/ultimate-crm-template): leads, quotes, jobs, invoices, payments, portals, SMS, automations
+- [Meta Ads God Mode](https://github.com/F0rger123/claude-meta-ads-god-mode): paid media, paused-first, approval-gated
+- [SEO God Mode](https://github.com/F0rger123/CLAUDE-SEO-GOD-MODE): rating, audits, local SEO, Search Console, AI search
+- [Video Editing God Mode](https://github.com/F0rger123/claude-video-editing-god-mode): editing skills + God Mode Cut approval PWA

@@ -1,0 +1,12 @@
+[submodule "components/crm"]
+	path = components/crm
+	url = https://github.com/F0rger123/ultimate-crm-template.git
+[submodule "components/ads"]
+	path = components/ads
+	url = https://github.com/F0rger123/claude-meta-ads-god-mode.git
+[submodule "components/seo"]
+	path = components/seo
+	url = https://github.com/F0rger123/CLAUDE-SEO-GOD-MODE.git
+[submodule "components/video"]
+	path = components/video
+	url = https://github.com/F0rger123/claude-video-editing-god-mode.git
