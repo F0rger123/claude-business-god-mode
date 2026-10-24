@@ -3,6 +3,7 @@
 > One umbrella that runs a whole business with Claude: CRM, paid ads, SEO and video, sharing one business profile.
 
 ## Start
+- [AI guide](https://raw.githubusercontent.com/F0rger123/claude-business-god-mode/main/docs/AI_GUIDE.md): what it is, what to ask, setup steps, how to use it
 - [README](https://raw.githubusercontent.com/F0rger123/claude-business-god-mode/main/README.md)
 - [Agent rules](https://raw.githubusercontent.com/F0rger123/claude-business-god-mode/main/AGENTS.md)
 - [Hub skill](https://raw.githubusercontent.com/F0rger123/claude-business-god-mode/main/skills/business-god-mode/SKILL.md)

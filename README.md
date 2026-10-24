@@ -1,36 +1,112 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Claude Business God Mode: CRM, Meta Ads, SEO and Video under one umbrella" width="100%">
+  <img src=".github/assets/banner.svg" alt="Business God Mode: Run a whole business with Claude. You approve." width="100%">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Claude%20Code-marketplace-f59e0b?style=for-the-badge" alt="Claude Code marketplace">
-  <img src="https://img.shields.io/badge/components-4-6366f1?style=for-the-badge" alt="4 components">
-  <img src="https://img.shields.io/badge/spend-approval%20gated-ea580c?style=for-the-badge" alt="Spend approval gated">
-  <img src="https://img.shields.io/badge/license-MIT-2ea44f?style=for-the-badge" alt="MIT">
+  <img src="https://img.shields.io/badge/status-public-f59e0b?style=for-the-badge" alt="Public">
+  <img src="https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge" alt="License">
+  <img src="https://img.shields.io/github/last-commit/F0rger123/claude-business-god-mode?style=for-the-badge&color=f59e0b" alt="Last commit">
+  <img src="https://img.shields.io/github/repo-size/F0rger123/claude-business-god-mode?style=for-the-badge&color=f59e0b" alt="Repo size">
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Claude-0d1117?style=flat-square&logo=claude&logoColor=white" alt="Claude">
+  <img src="https://img.shields.io/badge/Node.js-0d1117?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/GitHub%20Actions-0d1117?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
 </p>
 
 <h3 align="center">Start a business on Monday. By Friday it has a CRM, a rated website, ads ready to launch and its first edited videos. Claude does the work. You approve.</h3>
 
 <p align="center">
-  <a href="#-install-in-two-minutes">Install</a> ·
-  <a href="#-the-four-god-modes">Components</a> ·
-  <a href="#-how-it-fits-together">Architecture</a> ·
-  <a href="#-your-first-week">First week</a> ·
-  <a href="#-just-talk-to-it">Prompts</a> ·
-  <a href="#-playbooks">Playbooks</a> ·
-  <a href="#-safety">Safety</a> ·
-  <a href="#-faq">FAQ</a>
+  <a href="#01--what-it-does">What it does</a> ·
+  <a href="#02--how-the-four-parts-work-together">How the four parts work together</a> ·
+  <a href="#03--your-first-week">Your first week</a> ·
+  <a href="#04--nothing-risky-happens-without-your-yes">Nothing risky happens without your yes</a> ·
+  <a href="#05--what-its-written-in">What it's written in</a> ·
+  <a href="#field-manual">Field manual</a> ·
+  <a href="#license">License</a>
 </p>
 
----
+> [!TIP]
+> **🤖 Pasted this link into Claude or ChatGPT?** AI assistants: read [`docs/AI_GUIDE.md`](https://raw.githubusercontent.com/F0rger123/claude-business-god-mode/main/docs/AI_GUIDE.md) first. It explains what this is in plain words, which questions to ask, and how to set it up step by step. Plain-text index: [`llms.txt`](https://raw.githubusercontent.com/F0rger123/claude-business-god-mode/main/llms.txt).
 
-> [!IMPORTANT]
-> **AI agents (Claude, Codex, Cursor, Gemini): start here.** If someone pasted this link and asked you to set it up:
-> 1. Read [`AGENTS.md`](AGENTS.md), then the hub skill [`skills/business-god-mode/SKILL.md`](skills/business-god-mode/SKILL.md).
-> 2. Follow [`docs/SETUP.md`](docs/SETUP.md) to install only the parts the person needs.
-> 3. Start [`playbooks/01-new-business-launch.md`](playbooks/01-new-business-launch.md): copy [`templates/BUSINESS.md`](templates/BUSINESS.md) to `business/BUSINESS.md` and interview the owner.
->
-> Plain-text index: [`llms.txt`](llms.txt). Never ask for or print secrets. Money and public posts move only with the owner's yes.
+
+<p align="center"><img src=".github/assets/divider.svg" width="100%" alt=""></p>
+
+## 01 · What it does
+
+**Claude Business God Mode** is one front door to four tools that, together, run the marketing and day-to-day of a small service business with Claude. It keeps one shared profile of the business (services, prices, service area, brand voice, budget), so you answer each question once and every part uses the same facts. You talk to it in plain English; it picks the right tool, and nothing that spends money or goes public happens without your yes.
+
+| Part | What it does for you |
+|---|---|
+| 📇 **[Ultimate CRM Template](https://github.com/F0rger123/ultimate-crm-template)** | Your system of record: leads, quotes, jobs, invoices, payments, crew and client portals, texts, an AI assistant |
+| 📣 **[Meta Ads God Mode](https://github.com/F0rger123/claude-meta-ads-god-mode)** | Paid leads from Meta and Google ads. Everything is built paused and only spends after you approve. |
+| 🔎 **[SEO God Mode](https://github.com/F0rger123/CLAUDE-SEO-GOD-MODE)** | Rates and fixes your website, local search, Google Search Console, and readiness for AI search |
+| 🎬 **[Video Editing God Mode](https://github.com/F0rger123/claude-video-editing-god-mode)** | Turns phone footage into reels, Shorts and ad creatives, with a client approval app |
+
+**Quick start** (inside Claude Code):
+
+```text
+/plugin marketplace add F0rger123/claude-business-god-mode
+/plugin install business-god-mode@claude-business-god-mode
+```
+
+Then say: *"Use Business God Mode. Start onboarding for my business."* Install the other parts the same way, or clone everything at once (see the field manual below).
+
+## 02 · How the four parts work together
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#0d0f24','primaryTextColor':'#f8fafc','primaryBorderColor':'#f59e0b','lineColor':'#a5b4fc','secondaryColor':'#151833','tertiaryColor':'#05070f','clusterBkg':'transparent','clusterBorder':'#f59e0b','noteBkgColor':'#151833','noteTextColor':'#f8fafc','actorBkg':'#0d0f24','actorTextColor':'#f8fafc','actorBorder':'#f59e0b','signalColor':'#a5b4fc','signalTextColor':'#a5b4fc','labelBoxBkgColor':'#0d0f24','fontFamily':'inherit'}}}%%
+flowchart TB
+    Owner(["You, the owner"]) <-->|"you approve spending,<br/>posts and videos"| Hub
+    Hub{{"One shared profile<br/>of your business"}}
+    Hub --> CRM["📇 CRM keeps every<br/>customer and job"]
+    Hub --> Ads["📣 Ads bring in<br/>paid leads"]
+    Hub --> SEO["🔎 Website brings in<br/>free leads"]
+    Hub --> Video["🎬 Videos made from<br/>your phone footage"]
+    Ads -- "new leads" --> CRM
+    SEO -- "new leads" --> CRM
+    Video -- "best clips become ads" --> Ads
+    Video -- "videos added to your website" --> SEO
+    CRM -- "happy customers leave reviews" --> SEO
+    CRM -- "which channel made money" --> Hub
+```
+
+## 03 · Your first week
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#0d0f24','primaryTextColor':'#f8fafc','primaryBorderColor':'#f59e0b','lineColor':'#a5b4fc','secondaryColor':'#151833','tertiaryColor':'#05070f','clusterBkg':'transparent','clusterBorder':'#f59e0b','noteBkgColor':'#151833','noteTextColor':'#f8fafc','actorBkg':'#0d0f24','actorTextColor':'#f8fafc','actorBorder':'#f59e0b','signalColor':'#a5b4fc','signalTextColor':'#a5b4fc','labelBoxBkgColor':'#0d0f24','fontFamily':'inherit'}}}%%
+flowchart LR
+    D1["Day 1<br/>Claude interviews you,<br/>your CRM goes live"] --> D2["Day 2<br/>Website rated and<br/>lead form added"]
+    D2 --> D3["Day 3<br/>Ads built, paused,<br/>waiting for your OK"]
+    D3 --> D4["Day 4<br/>First reel edited<br/>and approved"]
+    D4 --> D5["Day 5<br/>Every lead source tested,<br/>handoff notes written"]
+```
+
+## 04 · Nothing risky happens without your yes
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#0d0f24','primaryTextColor':'#f8fafc','primaryBorderColor':'#f59e0b','lineColor':'#a5b4fc','secondaryColor':'#151833','tertiaryColor':'#05070f','clusterBkg':'transparent','clusterBorder':'#f59e0b','noteBkgColor':'#151833','noteTextColor':'#f8fafc','actorBkg':'#0d0f24','actorTextColor':'#f8fafc','actorBorder':'#f59e0b','signalColor':'#a5b4fc','signalTextColor':'#a5b4fc','labelBoxBkgColor':'#0d0f24','fontFamily':'inherit'}}}%%
+flowchart LR
+    A["Claude prepares an ad,<br/>a post or a payment"] --> B{"Did you say yes<br/>to this exact step?"}
+    B -->|no| C["It stays paused<br/>as a draft"]
+    B -->|yes| D["It goes live"]
+    D --> E["Results are reported<br/>with where the numbers came from"]
+    D -.->|"something looks wrong"| F["One command<br/>stops all ad spend"]
+```
+
+## 05 · What it's written in
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'pie1':'#f59e0b','pie2':'#6366f1','pie3':'#64748b','pie4':'#94a3b8','pie5':'#475569','pie6':'#cbd5e1','pie7':'#334155','pieStrokeColor':'#0d1117','pieOuterStrokeColor':'#0d1117','pieTitleTextColor':'#8b949e','pieLegendTextColor':'#8b949e','pieSectionTextColor':'#0d1117'}}}%%
+pie title Share of the code, by language
+    "PowerShell" : 52.9
+    "Shell" : 47.1
+```
+
+<p align="center"><img src=".github/assets/divider.svg" width="100%" alt=""></p>
+
+## Field manual
 
 ## ⚡ Install in two minutes
 
@@ -110,27 +186,6 @@ white-label PWA where clients upload clips, approve edits and schedule posts.
 </tr>
 </table>
 
-## 🗺 How it fits together
-
-```mermaid
-flowchart TB
-    Owner(["👤 Owner"]) <-->|"approves spend, posts, videos"| Hub
-    Hub{{"👑 Business God Mode<br/>business/BUSINESS.md · playbooks · routing"}}
-    Hub --> CRM["📇 Ultimate CRM<br/>leads · jobs · invoices · reviews"]
-    Hub --> Ads["📣 Meta Ads God Mode<br/>paused-first campaigns"]
-    Hub --> SEO["🔎 SEO God Mode<br/>audits · GSC · AI search"]
-    Hub --> Video["🎬 Video God Mode<br/>edits · God Mode Cut app"]
-    Ads -- "leads (source tagged)" --> CRM
-    SEO -- "leads from service pages" --> CRM
-    Video -- "reels → ad creatives" --> Ads
-    Video -- "transcripts → pages + VideoObject" --> SEO
-    CRM -- "review requests → GBP" --> SEO
-    CRM -- "revenue by source" --> Hub
-```
-
-**One profile, four specialists.** Every part reads the same `business/BUSINESS.md`: name, services, prices,
-service area, brand voice, offers, budget and goals. Nothing gets typed twice, nothing gets invented.
-
 ## 📅 Your first week
 
 | Day | What happens | Part |
@@ -205,8 +260,12 @@ Codex does not run Claude Code hooks, so read the Ads repo's note on the write g
 **Agencies?** Yes. Run one `business/` profile per client in separate workspaces; Ads and SEO already keep per-client memory,
 and God Mode Cut has per-client portals.
 
-## 📜 License
+## License
 
-MIT © 2026 F0rger123. Each component carries its own license and third-party notices; see each repository.
+Released under the [MIT License](LICENSE). Use it, fork it, ship it.
 
-<p align="center"><sub>Built by <a href="https://github.com/F0rger123"><b>@F0rger123</b></a> with Claude Code</sub></p>
+<p align="center"><img src=".github/assets/divider.svg" width="100%" alt=""></p>
+
+<p align="center">
+  <sub>Built by <a href="https://github.com/F0rger123"><b>@F0rger123</b></a> · MIT licensed</sub>
+</p>

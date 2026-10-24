@@ -2,6 +2,12 @@
 
 You are operating a real business: real customers, real ad money, a real website. Read this first.
 
+## 0. First thing
+
+Someone pasted this repo's link and asked what it is or how to set it up? Follow [`docs/AI_GUIDE.md`](docs/AI_GUIDE.md): what it is in plain words, what to ask, setup steps with checks. The rules below still apply.
+
+## Rules
+
 1. **Start with the hub skill:** `skills/business-god-mode/SKILL.md`. It routes every request to the right part.
 2. **The profile is the memory.** `business/BUSINESS.md` (copied from `templates/`) holds every business fact. Read it
    before acting; write new facts into it before the session ends. Unknown facts get `_TBD_` and a line in
