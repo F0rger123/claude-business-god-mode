@@ -3,10 +3,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/status-public-f59e0b?style=for-the-badge" alt="Public">
-  <img src="https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge" alt="License">
-  <img src="https://img.shields.io/github/last-commit/F0rger123/claude-business-god-mode?style=for-the-badge&color=f59e0b" alt="Last commit">
-  <img src="https://img.shields.io/github/repo-size/F0rger123/claude-business-god-mode?style=for-the-badge&color=f59e0b" alt="Repo size">
+  <img src="https://img.shields.io/badge/status-public-c96442?style=for-the-badge" alt="Public">
+  <img src="https://img.shields.io/badge/license-MIT-c96442?style=for-the-badge" alt="License">
+  <img src="https://img.shields.io/github/last-commit/F0rger123/claude-business-god-mode?style=for-the-badge&color=c96442" alt="Last commit">
+  <img src="https://img.shields.io/github/repo-size/F0rger123/claude-business-god-mode?style=for-the-badge&color=c96442" alt="Repo size">
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/Claude-0d1117?style=flat-square&logo=claude&logoColor=white" alt="Claude">
@@ -18,11 +18,12 @@
 <h3 align="center">Start a business on Monday. By Friday it has a CRM, a rated website, ads ready to launch and its first edited videos. Claude does the work. You approve.</h3>
 
 <p align="center">
-  <a href="#01--what-it-does">What it does</a> ·
-  <a href="#02--how-the-four-parts-work-together">How the four parts work together</a> ·
-  <a href="#03--your-first-week">Your first week</a> ·
-  <a href="#04--nothing-risky-happens-without-your-yes">Nothing risky happens without your yes</a> ·
-  <a href="#05--what-its-written-in">What it's written in</a> ·
+  <a href="#the-four-departments">The four departments</a> ·
+  <a href="#open-the-doors">Open the doors</a> ·
+  <a href="#monday-to-friday">Monday to Friday</a> ·
+  <a href="#how-the-departments-feed-each-other">How the departments feed each other</a> ·
+  <a href="#the-one-rule">The one rule</a> ·
+  <a href="#written-in">Written in</a> ·
   <a href="#field-manual">Field manual</a> ·
   <a href="#license">License</a>
 </p>
@@ -33,34 +34,70 @@
 
 <p align="center"><img src=".github/assets/divider.svg" width="100%" alt=""></p>
 
-## 01 · What it does
+## The four departments
 
-**Claude Business God Mode** is one front door to four tools that, together, run the marketing and day-to-day of a small service business with Claude. It keeps one shared profile of the business (services, prices, service area, brand voice, budget), so you answer each question once and every part uses the same facts. You talk to it in plain English; it picks the right tool, and nothing that spends money or goes public happens without your yes.
+**Claude Business God Mode** is one front door to four tools that run the marketing and day-to-day of a small service business. It keeps one shared profile of the business (services, prices, service area, brand voice, budget), so you answer each question once and every department uses the same facts.
 
-| Part | What it does for you |
-|---|---|
-| 📇 **[Ultimate CRM Template](https://github.com/F0rger123/ultimate-crm-template)** | Your system of record: leads, quotes, jobs, invoices, payments, crew and client portals, texts, an AI assistant |
-| 📣 **[Meta Ads God Mode](https://github.com/F0rger123/claude-meta-ads-god-mode)** | Paid leads from Meta and Google ads. Everything is built paused and only spends after you approve. |
-| 🔎 **[SEO God Mode](https://github.com/F0rger123/CLAUDE-SEO-GOD-MODE)** | Rates and fixes your website, local search, Google Search Console, and readiness for AI search |
-| 🎬 **[Video Editing God Mode](https://github.com/F0rger123/claude-video-editing-god-mode)** | Turns phone footage into reels, Shorts and ad creatives, with a client approval app |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📇 Sales desk</h3>
+      <a href="https://github.com/F0rger123/ultimate-crm-template"><b>Ultimate CRM Template</b></a><br>
+      Leads, quotes, jobs, invoices, payments, crew and client portals, texts and an AI assistant.<br>
+      <sub><b>Waits for your yes before:</b> texting customers in bulk.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📣 Advertising</h3>
+      <a href="https://github.com/F0rger123/claude-meta-ads-god-mode"><b>Meta Ads God Mode</b></a><br>
+      Paid leads from Meta and Google ads, built and tested for you.<br>
+      <sub><b>Waits for your yes before:</b> spending a single dollar. Everything is built paused.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔎 Website & search</h3>
+      <a href="https://github.com/F0rger123/CLAUDE-SEO-GOD-MODE"><b>SEO God Mode</b></a><br>
+      Rates and fixes your website, local search, Google Search Console, and readiness for AI search.<br>
+      <sub><b>Waits for your yes before:</b> changing your live site.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎬 Video</h3>
+      <a href="https://github.com/F0rger123/claude-video-editing-god-mode"><b>Video Editing God Mode</b></a><br>
+      Turns phone footage into reels, Shorts and ad creatives, with a client approval app.<br>
+      <sub><b>Waits for your yes before:</b> posting anything.</sub>
+    </td>
+  </tr>
+</table>
 
-**Quick start** (inside Claude Code):
+## Open the doors
+
+Inside Claude Code:
 
 ```text
 /plugin marketplace add F0rger123/claude-business-god-mode
 /plugin install business-god-mode@claude-business-god-mode
 ```
 
-Then say: *"Use Business God Mode. Start onboarding for my business."* Install the other parts the same way, or clone everything at once (see the field manual below).
+Then say: *"Use Business God Mode. Start onboarding for my business."* Install the other departments the same way, or clone everything at once (see the field manual below).
 
-## 02 · How the four parts work together
+## Monday to Friday
+
+| Day | Claude does | You do |
+|---|---|---|
+| **Mon** | Interviews you and sets up your CRM | Answer questions about your business |
+| **Tue** | Rates your website and adds a lead form | Read the score and say yes to the fixes you want |
+| **Wed** | Builds your ads, all paused | Pick a daily budget, or don't launch yet |
+| **Thu** | Edits your first reel from phone footage | Approve it or ask for changes |
+| **Fri** | Tests every way a lead can reach you and writes handoff notes | Keep the notes; you're live |
+
+## How the departments feed each other
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#0d0f24','primaryTextColor':'#f8fafc','primaryBorderColor':'#f59e0b','lineColor':'#a5b4fc','secondaryColor':'#151833','tertiaryColor':'#05070f','clusterBkg':'transparent','clusterBorder':'#f59e0b','noteBkgColor':'#151833','noteTextColor':'#f8fafc','actorBkg':'#0d0f24','actorTextColor':'#f8fafc','actorBorder':'#f59e0b','signalColor':'#a5b4fc','signalTextColor':'#a5b4fc','labelBoxBkgColor':'#0d0f24','fontFamily':'inherit'}}}%%
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#fffdf9','primaryTextColor':'#1f1b16','primaryBorderColor':'#c96442','lineColor':'#6f665c','secondaryColor':'#f5f1ea','tertiaryColor':'#efe7da','clusterBkg':'transparent','clusterBorder':'#c96442','noteBkgColor':'#f5f1ea','noteTextColor':'#1f1b16','actorBkg':'#fffdf9','actorTextColor':'#1f1b16','actorBorder':'#c96442','signalColor':'#6f665c','signalTextColor':'#6f665c','labelBoxBkgColor':'#fffdf9','fontFamily':'inherit'}}}%%
 flowchart TB
     Owner(["You, the owner"]) <-->|"you approve spending,<br/>posts and videos"| Hub
     Hub{{"One shared profile<br/>of your business"}}
-    Hub --> CRM["📇 CRM keeps every<br/>customer and job"]
+    Hub --> CRM["📇 Sales desk keeps every<br/>customer and job"]
     Hub --> Ads["📣 Ads bring in<br/>paid leads"]
     Hub --> SEO["🔎 Website brings in<br/>free leads"]
     Hub --> Video["🎬 Videos made from<br/>your phone footage"]
@@ -72,33 +109,24 @@ flowchart TB
     CRM -- "which channel made money" --> Hub
 ```
 
-## 03 · Your first week
+## The one rule
+
+> [!IMPORTANT]
+> Nothing that spends money, goes public or messages customers happens until you say yes to that exact step. One command stops all ad spend at any time.
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#0d0f24','primaryTextColor':'#f8fafc','primaryBorderColor':'#f59e0b','lineColor':'#a5b4fc','secondaryColor':'#151833','tertiaryColor':'#05070f','clusterBkg':'transparent','clusterBorder':'#f59e0b','noteBkgColor':'#151833','noteTextColor':'#f8fafc','actorBkg':'#0d0f24','actorTextColor':'#f8fafc','actorBorder':'#f59e0b','signalColor':'#a5b4fc','signalTextColor':'#a5b4fc','labelBoxBkgColor':'#0d0f24','fontFamily':'inherit'}}}%%
-flowchart LR
-    D1["Day 1<br/>Claude interviews you,<br/>your CRM goes live"] --> D2["Day 2<br/>Website rated and<br/>lead form added"]
-    D2 --> D3["Day 3<br/>Ads built, paused,<br/>waiting for your OK"]
-    D3 --> D4["Day 4<br/>First reel edited<br/>and approved"]
-    D4 --> D5["Day 5<br/>Every lead source tested,<br/>handoff notes written"]
-```
-
-## 04 · Nothing risky happens without your yes
-
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#0d0f24','primaryTextColor':'#f8fafc','primaryBorderColor':'#f59e0b','lineColor':'#a5b4fc','secondaryColor':'#151833','tertiaryColor':'#05070f','clusterBkg':'transparent','clusterBorder':'#f59e0b','noteBkgColor':'#151833','noteTextColor':'#f8fafc','actorBkg':'#0d0f24','actorTextColor':'#f8fafc','actorBorder':'#f59e0b','signalColor':'#a5b4fc','signalTextColor':'#a5b4fc','labelBoxBkgColor':'#0d0f24','fontFamily':'inherit'}}}%%
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#fffdf9','primaryTextColor':'#1f1b16','primaryBorderColor':'#c96442','lineColor':'#6f665c','secondaryColor':'#f5f1ea','tertiaryColor':'#efe7da','clusterBkg':'transparent','clusterBorder':'#c96442','noteBkgColor':'#f5f1ea','noteTextColor':'#1f1b16','actorBkg':'#fffdf9','actorTextColor':'#1f1b16','actorBorder':'#c96442','signalColor':'#6f665c','signalTextColor':'#6f665c','labelBoxBkgColor':'#fffdf9','fontFamily':'inherit'}}}%%
 flowchart LR
     A["Claude prepares an ad,<br/>a post or a payment"] --> B{"Did you say yes<br/>to this exact step?"}
     B -->|no| C["It stays paused<br/>as a draft"]
     B -->|yes| D["It goes live"]
-    D --> E["Results are reported<br/>with where the numbers came from"]
-    D -.->|"something looks wrong"| F["One command<br/>stops all ad spend"]
+    D --> E["Results reported, with<br/>where the numbers came from"]
 ```
 
-## 05 · What it's written in
+## Written in
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'pie1':'#f59e0b','pie2':'#6366f1','pie3':'#64748b','pie4':'#94a3b8','pie5':'#475569','pie6':'#cbd5e1','pie7':'#334155','pieStrokeColor':'#0d1117','pieOuterStrokeColor':'#0d1117','pieTitleTextColor':'#8b949e','pieLegendTextColor':'#8b949e','pieSectionTextColor':'#0d1117'}}}%%
+%%{init: {'theme':'base','themeVariables':{'pie1':'#c96442','pie2':'#3f7d4f','pie3':'#64748b','pie4':'#94a3b8','pie5':'#475569','pie6':'#cbd5e1','pie7':'#334155','pieStrokeColor':'#0d1117','pieOuterStrokeColor':'#0d1117','pieTitleTextColor':'#8b949e','pieLegendTextColor':'#8b949e','pieSectionTextColor':'#0d1117'}}}%%
 pie title Share of the code, by language
     "PowerShell" : 52.9
     "Shell" : 47.1
