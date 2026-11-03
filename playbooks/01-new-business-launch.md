@@ -8,8 +8,8 @@ ready for approval and its first edited video. Each step names the part that doe
 1. **Interview (Business God Mode).** Copy `templates/BUSINESS.md` to `business/BUSINESS.md`. Ask, five questions at
    a time: business basics, services and prices, service area, ideal customer, brand voice, goals, ad budget,
    who approves spend and videos. Write the answers in as you go.
-2. **CRM (Ultimate CRM Template).** Say: *"Create a new CRM for this business from
-   https://github.com/F0rger123/ultimate-crm-template. Begin onboarding. Use business/BUSINESS.md as the profile."*
+2. **CRM (Ultimate CRM Template, private repo: get access first).** Say: *"Create a new CRM for this business from
+   the Ultimate CRM Template. Begin onboarding. Use business/BUSINESS.md as the profile."*
    The CRM wizard creates a **private** repo for the business, a Supabase project and a Cloudflare Pages site.
 3. Record the CRM repo URL and app URL in `BUSINESS.md` → "Parts in use".
 

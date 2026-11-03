@@ -16,7 +16,7 @@
 - [04 Monthly review](https://raw.githubusercontent.com/F0rger123/claude-business-god-mode/main/playbooks/04-monthly-review.md)
 
 ## Components
-- [Ultimate CRM Template](https://github.com/F0rger123/ultimate-crm-template): leads, quotes, jobs, invoices, payments, portals, SMS, automations
+- Ultimate CRM Template (private repo, access on request): leads, quotes, jobs, invoices, payments, portals, SMS, automations
 - [Meta Ads God Mode](https://github.com/F0rger123/claude-meta-ads-god-mode): paid media, paused-first, approval-gated
 - [SEO God Mode](https://github.com/F0rger123/CLAUDE-SEO-GOD-MODE): rating, audits, local SEO, Search Console, AI search
 - [Video Editing God Mode](https://github.com/F0rger123/claude-video-editing-god-mode): editing skills + God Mode Cut approval PWA

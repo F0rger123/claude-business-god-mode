@@ -22,7 +22,7 @@ One operating system for a whole business, made of four parts that share one bus
 
 | Part | Repo | Plugin / skill | Owns |
 | --- | --- | --- | --- |
-| CRM | `F0rger123/ultimate-crm-template` | clone per business (not a plugin) | customers, leads, quotes, jobs, invoices, payments, reviews, SMS, automations |
+| CRM | `F0rger123/ultimate-crm-template` (private; skip if no access) | clone per business (not a plugin) | customers, leads, quotes, jobs, invoices, payments, reviews, SMS, automations |
 | Ads | `F0rger123/claude-meta-ads-god-mode` | `ads@claude-meta-ads-god-mode` | Meta and Google ad accounts, budgets, campaigns, reporting |
 | SEO | `F0rger123/CLAUDE-SEO-GOD-MODE` | `seo-god-mode@seo-god-mode` | website rating, audits, local SEO, Search Console, Bing, schema, AI search |
 | Video | `F0rger123/claude-video-editing-god-mode` | `video-editing-god-mode@claude-video-editing-god-mode` | editing reels, Shorts and long-form, client video approval PWA |

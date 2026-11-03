@@ -42,7 +42,7 @@
   <tr>
     <td width="50%" valign="top">
       <h3>📇 Sales desk</h3>
-      <a href="https://github.com/F0rger123/ultimate-crm-template"><b>Ultimate CRM Template</b></a><br>
+      <b>Ultimate CRM Template</b> <sub>(private, access on request)</sub><br>
       Leads, quotes, jobs, invoices, payments, crew and client portals, texts and an AI assistant.<br>
       <sub><b>Waits for your yes before:</b> texting customers in bulk.</sub>
     </td>
@@ -168,14 +168,15 @@ Use Business God Mode. Start onboarding for my business.
 <tr>
 <td width="50%" valign="top">
 
-### 📇 [Ultimate CRM Template](https://github.com/F0rger123/ultimate-crm-template)
+### 📇 Ultimate CRM Template <sub>(private)</sub>
 **The system of record.** Leads and pipeline, quotes with e-sign, invoices, Stripe / Square / manual payments, jobs
 and recurring work, scheduling and routes, crew portal with clock-in, client portal, reviews and referrals,
 Twilio SMS inbox, Gmail templates, campaigns, an automations builder and **Alfred**, the AI chief-of-staff.
 
 React + Vite · Supabase · Cloudflare Pages. Claude interviews the owner and builds *their* version in a private repo.
 
-`Create a new CRM for my business from https://github.com/F0rger123/ultimate-crm-template. Begin onboarding.`
+The template repo is private. Ask [@F0rger123](https://github.com/F0rger123) for access, then say:
+`Create a new CRM for my business from the Ultimate CRM Template. Begin onboarding.`
 
 </td>
 <td width="50%" valign="top">

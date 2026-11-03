@@ -57,7 +57,7 @@ Already cloned without submodules? Run `git submodule update --init --recursive`
 
 | Part | Do this | Detailed guide |
 |---|---|---|
-| CRM | Ask Claude: *"Create a new CRM for my business from https://github.com/F0rger123/ultimate-crm-template. Begin onboarding."* | [`docs/SETUP_WIZARD.md`](https://github.com/F0rger123/ultimate-crm-template/blob/main/docs/SETUP_WIZARD.md) |
+| CRM | The template repo is private: ask the owner for access first. Then ask Claude: *"Create a new CRM for my business from the Ultimate CRM Template. Begin onboarding."* | `docs/SETUP_WIZARD.md` inside the template |
 | Ads | `/mcp` → `meta-ads` → sign in with Facebook, then `/ads:doctor` | [Install](https://github.com/F0rger123/claude-meta-ads-god-mode#-install-in-60-seconds) |
 | SEO | `pip install -r mcp-server/requirements.txt` if you use the MCP server; connect Search Console / Bing with `python scripts/setup/connect.py` | [`docs/SETUP.md`](https://github.com/F0rger123/CLAUDE-SEO-GOD-MODE/blob/main/docs/SETUP.md) |
 | Video | `cd components/video && npm install && npm run setup && npm run demo` | [README](https://github.com/F0rger123/claude-video-editing-god-mode#-quick-start) |
