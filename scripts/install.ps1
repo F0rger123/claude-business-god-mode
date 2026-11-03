@@ -7,11 +7,19 @@ if ((Test-Path .gitmodules) -and (Test-Path .git)) {
   git submodule update --init --recursive
 } else {
   New-Item -ItemType Directory -Force components | Out-Null
-  $parts = @{ crm = "ultimate-crm-template"; ads = "claude-meta-ads-god-mode"; seo = "CLAUDE-SEO-GOD-MODE"; video = "claude-video-editing-god-mode" }
+  $parts = @{ ads = "claude-meta-ads-god-mode"; seo = "CLAUDE-SEO-GOD-MODE"; video = "claude-video-editing-god-mode" }
   foreach ($k in $parts.Keys) {
     $dir = "components\$k"
     if (Test-Path "$dir\.git") { git -C $dir pull --ff-only } else { git clone "https://github.com/F0rger123/$($parts[$k]).git" $dir }
   }
+}
+
+# The CRM template is private: clone it only when this account can see it.
+if (-not (Test-Path "components\crm\.git")) {
+  $ErrorActionPreference = "Continue"; $env:GIT_TERMINAL_PROMPT = "0"
+  git clone -q https://github.com/F0rger123/ultimate-crm-template.git components\crm 2>$null
+  $ErrorActionPreference = "Stop"
+  if ($LASTEXITCODE -ne 0) { Write-Host "Skipped the CRM: its template repo is private. Ask the owner for access." }
 }
 
 if (Get-Command claude -ErrorAction SilentlyContinue) {
