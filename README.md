@@ -43,7 +43,7 @@
     <td width="50%" valign="top">
       <h3>📇 Sales desk</h3>
       <b>Ultimate CRM Template</b> <sub>(private, access on request)</sub><br>
-      Leads, quotes, jobs, invoices, payments, crew and client portals, texts and an AI assistant.<br>
+      Leads, quotes, jobs, invoices, payments, crew and client portals, texts and an AI assistant. Optional: the installer skips it if you don't have access.<br>
       <sub><b>Waits for your yes before:</b> texting customers in bulk.</sub>
     </td>
     <td width="50%" valign="top">
@@ -78,7 +78,7 @@ Inside Claude Code:
 /plugin install business-god-mode@claude-business-god-mode
 ```
 
-Then say: *"Use Business God Mode. Start onboarding for my business."* Install the other departments the same way, or clone everything at once (see the field manual below).
+Then say: *"Use Business God Mode. Start onboarding for my business."* Install the other departments the same way, or clone everything at once with `git clone --recurse-submodules` and the install script (see the field manual below). The CRM template repo is private, so the installer adds it only when your GitHub account has access.
 
 ## Monday to Friday
 
@@ -128,8 +128,8 @@ flowchart LR
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'pie1':'#c96442','pie2':'#3f7d4f','pie3':'#64748b','pie4':'#94a3b8','pie5':'#475569','pie6':'#cbd5e1','pie7':'#334155','pieStrokeColor':'#0d1117','pieOuterStrokeColor':'#0d1117','pieTitleTextColor':'#8b949e','pieLegendTextColor':'#8b949e','pieSectionTextColor':'#0d1117'}}}%%
 pie title Share of the code, by language
-    "PowerShell" : 52.9
-    "Shell" : 47.1
+    "PowerShell" : 53.9
+    "Shell" : 46.1
 ```
 
 <p align="center"><img src=".github/assets/divider.svg" width="100%" alt=""></p>
@@ -168,15 +168,14 @@ Use Business God Mode. Start onboarding for my business.
 <tr>
 <td width="50%" valign="top">
 
-### 📇 Ultimate CRM Template <sub>(private)</sub>
+### 📇 [Ultimate CRM Template](https://github.com/F0rger123/ultimate-crm-template)
 **The system of record.** Leads and pipeline, quotes with e-sign, invoices, Stripe / Square / manual payments, jobs
 and recurring work, scheduling and routes, crew portal with clock-in, client portal, reviews and referrals,
 Twilio SMS inbox, Gmail templates, campaigns, an automations builder and **Alfred**, the AI chief-of-staff.
 
 React + Vite · Supabase · Cloudflare Pages. Claude interviews the owner and builds *their* version in a private repo.
 
-The template repo is private. Ask [@F0rger123](https://github.com/F0rger123) for access, then say:
-`Create a new CRM for my business from the Ultimate CRM Template. Begin onboarding.`
+`Create a new CRM for my business from https://github.com/F0rger123/ultimate-crm-template. Begin onboarding.`
 
 </td>
 <td width="50%" valign="top">

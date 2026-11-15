@@ -13,7 +13,7 @@ One front door to four Claude tools that together run a small service business: 
 Ask these together in one short message, then repeat back what you heard in a line or two. Skip anything they already told you.
 
 - What is the business, where does it work, and is it brand new or already running?
-- Which parts do you want now: the CRM, ads, website/SEO, video, or all four?
+- Which parts do you want now: the CRM, ads, website/SEO, video, or all four? (The CRM template is private; do you have access to it?)
 - Do you use Claude Code (best), or Codex?
 - Are you on Windows, Mac or Linux, and do you already have Git and Node.js 22 or newer?
 
@@ -25,8 +25,8 @@ Do one step at a time. Check each one worked before moving on.
 |---|---|---|
 | 1 | Install the hub plugin in Claude Code: `/plugin marketplace add F0rger123/claude-business-god-mode`, then `/plugin install business-god-mode@claude-business-god-mode` | `/plugin` lists `business-god-mode` |
 | 2 | Install only the parts they want from the same marketplace: `ads@claude-business-god-mode`, `seo-god-mode@claude-business-god-mode`, `video-editing-god-mode@claude-business-god-mode` | `/plugin` lists each one |
-| 3 | Optional, the whole workspace: `git clone --recurse-submodules https://github.com/F0rger123/claude-business-god-mode.git`, then `bash scripts/install.sh` (Windows: `powershell -ExecutionPolicy Bypass -File scripts/install.ps1`) | `git submodule status` lists crm, ads, seo and video, and `business/BUSINESS.md` exists |
-| 4 | Set up each chosen part with its own guide (table in `docs/SETUP.md`). The CRM is not a plugin: it is copied into a new private repo per business. | Each part's own check passes, for example `/ads:doctor` for ads |
+| 3 | Optional, the whole workspace: `git clone --recurse-submodules https://github.com/F0rger123/claude-business-god-mode.git`, then `bash scripts/install.sh` (Windows: `powershell -ExecutionPolicy Bypass -File scripts/install.ps1`) | `git submodule status` lists ads, seo and video, and `business/BUSINESS.md` exists. The CRM lands in `components/crm` only if their GitHub account can see the private template; otherwise the script says it skipped it |
+| 4 | Set up each chosen part with its own guide (table in `docs/SETUP.md`). The CRM is not a plugin: it is copied into a new private repo per business, and its template repo is private, so ask the owner (F0rger123) for access first or skip the CRM. | Each part's own check passes, for example `/ads:doctor` for ads |
 | 5 | Say: "Use Business God Mode. Start onboarding for my business." | Claude starts the interview and fills `business/BUSINESS.md` |
 
 ## Use it
